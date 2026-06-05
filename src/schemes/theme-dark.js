@@ -11,6 +11,7 @@ export default {
 
   borderColor: 'rgba(0, 0, 0, .25)',
   dividerColor: 'rgba(0, 0, 0, .1)',
+  borderColorStrong: 'rgba(0, 0, 0, .5)',
 
   maskBackground: 'rgba(0, 0, 0, .5)',
 

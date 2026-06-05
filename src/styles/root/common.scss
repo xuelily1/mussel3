@@ -1,18 +1,12 @@
 .mu-root {
   --mu-common-font-size: $commonFontSize;
   --mu-unit-spacing-size: $unitSpacingSize;
+  --mu-base-spacing: $unitSpacingSize;
+  --mu-border-color-strong: $borderColorStrong;
+  --mu-border-color-normal: $borderColor;
+  --mu-border-color-soft: $dividerColor;
 
-  font-family:
-    system-ui, 
-    -apple-system,
-    BlinkMacSystemFont,
-    "PingFang SC",
-    "Hiragino Sans GB",
-    "Microsoft YaHei",
-    "Helvetica Neue",
-    Helvetica,
-    Arial,
-    sans-serif;
+  font-family: system-ui, -apple-system, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: var(--mu-common-font-size);
   color: var(--mu-text-color-normal);
   background-color: var(--mu-background-normal);

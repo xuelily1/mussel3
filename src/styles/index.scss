@@ -34,3 +34,9 @@
 @import './common/background';
 @import './common/box-shadow';
 // @import './common/animation';
+
+@import './compat/border.scss';
+@import './compat/layout.scss';
+@import './compat/pointer.scss';
+@import './compat/spacing.scss';
+@import './compat/typography.scss';

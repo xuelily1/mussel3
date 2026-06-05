@@ -1,0 +1,47 @@
+// @each $v in ('strong', 'normal', 'subtle', 'soft', 'muted') {
+//   .text-#{$v},
+//   .mu-text-color-#{$v} {
+//     color: var(--mu-text-color-#{$v});
+//   }
+// }
+
+// @each $v in ('primary', 'secondary', 'success', 'warning', 'danger') {
+//   .text-#{$v},
+//   .mu-text-color-#{$v} {
+//     color: var(--mu-#{$v}-color);
+//   }
+// }
+
+@each $v in ('left', 'center', 'right') {
+  .text-#{$v} {
+    text-align: #{$v};
+  }
+}
+
+@each $v in ('normal', 'nowrap', 'pre', 'pre-line', 'pre-wrap', 'break-spaces') {
+  .whitespace-#{$v} {
+    white-space: #{$v};
+  }
+}
+
+.text-ellipsis,
+.mu-text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.line-clamp {
+  --line-clamp: 2;
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--line-clamp);
+
+  white-space: pre-line;
+}
+
+.leading-none {
+  line-height: 1;
+}

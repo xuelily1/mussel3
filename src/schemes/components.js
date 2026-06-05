@@ -66,5 +66,9 @@ export default {
   notifierPaddingX: '8px',
   notifierPaddingY: '8px',
   notifierBorderRadius: '8px',
-  notifierIconSize: '32px'
+  notifierIconSize: '32px',
+
+  borderColor: 'rgba(0, 0, 0, .25)',
+  borderColorStrong: 'rgba(0, 0, 0, .5)',
+  dividerColor: 'rgba(0, 0, 0, .1)'
 }

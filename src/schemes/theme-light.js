@@ -10,6 +10,7 @@ export default {
   textColorPlaceholder: 'var(--mu-gray-5)',
 
   borderColor: 'rgba(0, 0, 0, .25)',
+  borderColorStrong: 'rgba(0, 0, 0, .5)',
   dividerColor: 'rgba(0, 0, 0, .1)',
 
   maskBackground: 'rgba(0, 0, 0, .5)',
